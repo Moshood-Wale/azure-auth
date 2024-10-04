@@ -102,6 +102,7 @@ SOCIAL_AUTH_PIPELINE = (
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 SESSION_COOKIE_SECURE = False 
 SESSION_COOKIE_HTTPONLY = True
+SESSION_COOKIE_SAMESITE = None
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
